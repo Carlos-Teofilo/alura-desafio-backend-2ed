@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-(52&d^=4qk$t8w3*!^*!(w-1k)8rc2g@4@(72(esu@@a)8lgam
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://boiling-citadel-96698-ee6177e48746.herokuapp.com/',
+    'http //127.0 0.1:8000',
+]
 
 
 # Application definition
