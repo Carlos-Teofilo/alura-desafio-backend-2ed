@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-(52&d^=4qk$t8w3*!^*!(w-1k)8rc2g@4@(72(esu@@a)8lgam
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
-CSRF_TRUSTED_ORIGINS = os.getenv("CSRF_TRUSTED_ORIGINS", "").split(",")
+CSRF_TRUSTED_ORIGINS = os.getenv("CSRF_TRUSTED_ORIGINS", "https://desafio-alura.com").split(",")
 
 
 # Application definition
